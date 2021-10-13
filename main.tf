@@ -3,8 +3,8 @@ provider "aws" {
 }                                                                                                                                                                      
                                                                                                                                                                        
 module "terraform-aws-lambda-function" {                                                                                                                               
-  source  = "naveenkumar251/Lambdafunctions"                                                                                                                          
-  version = "~> 0.5.0"                                                                                                                                                 
+  source  = "https://github.com/naveenkumar251/Lambdafunctions"                                                                                                                          
+  #version = "~> 0.5.0"                                                                                                                                                 
                                                                                                                                                                        
   function_name = "python-function-newu11"                                                                                                                             
   description   = "Example Python Lambda Function that returns an HTTP response."                                                                                      
